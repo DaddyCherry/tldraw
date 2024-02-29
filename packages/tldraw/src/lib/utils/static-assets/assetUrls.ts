@@ -18,7 +18,8 @@ export let defaultEditorAssetUrls: TLEditorAssetUrls = {
 		draw: `https://unpkg.com/@tldraw/assets@${version}/fonts/Shantell_Sans-Tldrawish.woff2`,
 		serif: `https://unpkg.com/@tldraw/assets@${version}/fonts/IBMPlexSerif-Medium.woff2`,
 		sansSerif: `https://unpkg.com/@tldraw/assets@${version}/fonts/IBMPlexSans-Medium.woff2`,
-		monospace: `https://unpkg.com/@tldraw/assets@${version}/fonts/IBMPlexMono-Medium.woff2`,
+		// monospace: `https://unpkg.com/@tldraw/assets@${version}/fonts/IBMPlexMono-Medium.woff2`,
+		monospace: `https://unpkg.com/@tldraw/assets@${version}/fonts/easy_gothic_jp`,
 	},
 }
 
