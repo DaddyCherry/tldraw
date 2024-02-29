@@ -13,8 +13,7 @@ export function getAssetUrlsByMetaUrl(opts) {
 	return {
 		fonts: {
 			monospace: formatAssetUrl(
-				// new URL('./fonts/IBMPlexMono-Medium.woff2', import.meta.url).href,
-				new URL('./fonts/easy_gothic_jp.otf', import.meta.url).href,
+				new URL('./fonts/IBMPlexMono-Medium.woff2', import.meta.url).href,
 				opts
 			),
 			sansSerif: formatAssetUrl(
