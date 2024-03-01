@@ -12,7 +12,8 @@ import { formatAssetUrl } from './utils.js'
 export function getAssetUrls(opts) {
 	return {
 		fonts: {
-			monospace: formatAssetUrl('./fonts/IBMPlexMono-Medium.woff2', opts),
+			// monospace: formatAssetUrl('./fonts/IBMPlexMono-Medium.woff2', opts),
+			monospace: formatAssetUrl('./fonts/easy_gothic_jp.otf', opts),
 			sansSerif: formatAssetUrl('./fonts/IBMPlexSans-Medium.woff2', opts),
 			serif: formatAssetUrl('./fonts/IBMPlexSerif-Medium.woff2', opts),
 			draw: formatAssetUrl('./fonts/Shantell_Sans-Tldrawish.woff2', opts),
